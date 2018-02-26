@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TestSuite Status="" AutoCheck="" SourceURL="" Description="Contains all keywords, its is used to help user combine kwywords to create testcase" Author="Auto generate">
+    <Clients ID="" />
+    <Tests ID="">
+        <TestCase ID="core|Utils|VerifyPageContainText" Status="0" Name="VerifyPageContainText" Description="Contains all keywords is used after keyword : VerifyPageContainText" Author="Auto generate" Comment="no" PrimaryCase="no" />
+        <TestCase ID="ebay|Home|ClickLinkRegister" Status="0" Name="ClickLinkRegister" Description="Contains all keywords is used after keyword : ClickLinkRegister" Author="Auto generate" Comment="no" PrimaryCase="no">
+            <Keyword Name="RegisterNewAccount" Status="" Remote="Chrome" Product="ebay" Feature="Home" StartTime="" FinishTime="" Description="Empty email" Comment="">
+                <Param Name="$Email" TestBedPath="" Description="" />
+                <Param Name="$ReenterEmail" TestBedPath="" Description="">testter115@gmail.com</Param>
+                <Param Name="$Password" TestBedPath="" Description="">Passw0rd!@123</Param>
+                <Param Name="$FirstName" TestBedPath="" Description="">Tester</Param>
+                <Param Name="$Lastname" TestBedPath="" Description="">115</Param>
+                <Param Name="$country" TestBedPath="" Description="">Canada</Param>
+                <Param Name="$Phone" TestBedPath="" Description="">(877) 609-2233</Param>
+            </Keyword>
+        </TestCase>
+        <TestCase ID="ebay|Home|RegisterNewAccount" Status="0" Name="RegisterNewAccount" Description="Contains all keywords is used after keyword : RegisterNewAccount" Author="Auto generate" Comment="no" PrimaryCase="no">
+            <Keyword Name="VerifyPageContainText" Status="" Remote="Chrome" Product="Core" Feature="Utils" StartTime="" FinishTime="" Description="" Comment="">
+                <Param Name="$TextContent" TestBedPath="" Description="">Please fix the errors highlighted in the fields below:</Param>
+            </Keyword>
+        </TestCase>
+        <TestCase ID="ebay|Home|SearchProduct" Status="0" Name="SearchProduct" Description="Contains all keywords is used after keyword : SearchProduct" Author="Auto generate" Comment="no" PrimaryCase="no">
+            <Keyword Name="VerifyProductTitleIsConsitency" Status="" Remote="Chrome" Product="ebay" Feature="Product" StartTime="" FinishTime="" Description="" Comment="">
+                <Param Name="$nthProduct" TestBedPath="" Description="">1</Param>
+            </Keyword>
+        </TestCase>
+        <TestCase ID="ebay|Login|Login" Status="0" Name="Login" Description="Contains all keywords is used after keyword : Login" Author="Auto generate" Comment="no" PrimaryCase="no" />
+        <TestCase ID="ebay|Product|VerifyProductTitleIsConsitency" Status="0" Name="VerifyProductTitleIsConsitency" Description="Contains all keywords is used after keyword : VerifyProductTitleIsConsitency" Author="Auto generate" Comment="no" PrimaryCase="no">
+            <Keyword Name="CleanUp" Status="" Remote="Chrome" Product="ebay" Feature="WebCommon" StartTime="" FinishTime="" Description="" Comment="" />
+        </TestCase>
+        <TestCase ID="ebay|WebCommon|Launch" Status="0" Name="Launch" Description="Contains all keywords is used after keyword : Launch" Author="Auto generate" Comment="no" PrimaryCase="no">
+            <Keyword Name="ClickLinkRegister" Status="" Remote="Chrome" Product="ebay" Feature="Home" StartTime="" FinishTime="" Description="" Comment="" />
+            <Keyword Name="SearchProduct" Status="" Remote="Chrome" Product="ebay" Feature="Home" StartTime="" FinishTime="" Description="" Comment="">
+                <Param Name="$SearchKeyword" TestBedPath="" Description="">Dell</Param>
+            </Keyword>
+        </TestCase>
+        <TestCase ID="ebay|WebCommon|Close" Status="0" Name="Close" Description="Contains all keywords is used after keyword : Close" Author="Auto generate" Comment="no" PrimaryCase="no" />
+        <TestCase ID="ebay|WebCommon|CleanUp" Status="0" Name="CleanUp" Description="Contains all keywords is used after keyword : CleanUp" Author="Auto generate" Comment="no" PrimaryCase="no">
+            <Keyword Name="Close" Status="" Remote="Chrome" Product="ebay" Feature="WebCommon" StartTime="" FinishTime="" Description="" Comment="" />
+        </TestCase>
+    </Tests>
+</TestSuite>

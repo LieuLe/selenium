@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Node Name="TestBed">
+  <Node Name="System">
+    <Node Name="WebPage_Infomation">
+      <Node Name="Web_Url">
+        <Node Name="LoginPage">https://www.google.com.vn/</Node>
+      </Node>
+      <Node Name="LoginAccount">
+        <Node Name="Account1">
+          <Node Name="UserName">meusolutionstester@gmail.com</Node>
+          <Node Name="Password">RAPtor@1234</Node>
+        </Node>
+      </Node>
+    </Node>
+    <Node Name="Googlepage">
+      <Node Name="URL">https://www.google.com.vn/</Node>
+    </Node>
+  </Node>
+  <Node Name="Custom" />
+</Node>
