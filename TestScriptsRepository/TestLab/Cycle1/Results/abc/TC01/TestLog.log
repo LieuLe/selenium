@@ -1,0 +1,12 @@
+[24/05/2017 13:14:27][PASS][LaunchBrowser], Launch browser : Successfull
+[24/05/2017 13:14:28][PASS][SearchKeyword], Search : Successfull
+[24/05/2017 13:14:29][PASS][ClickLinkPartialText], ClickLinkPartialText : Successfull
+[24/05/2017 13:14:32][PASS][CloseBrowser], Close browser : Successfull
+[24/05/2017 13:15:12][PASS][LaunchBrowser], Launch browser : Successfull
+[24/05/2017 13:15:12][PASS][SearchKeyword], Search : Successfull
+[24/05/2017 13:15:14][PASS][ClickLinkPartialText], ClickLinkPartialText : Successfull
+[24/05/2017 13:15:15][PASS][CloseBrowser], Close browser : Successfull
+[24/05/2017 13:16:24][PASS][LaunchBrowser], Launch browser : Successfull
+[24/05/2017 13:16:24][PASS][SearchKeyword], Search : Successfull
+[24/05/2017 13:16:31][PASS][ClickLinkPartialText], ClickLinkPartialText : Successfull
+[24/05/2017 13:16:32][PASS][CloseBrowser], Close browser : Successfull

@@ -1,0 +1,8 @@
+[08/07/2017 10:08:17][PASS][LaunchBrowser], Launch browser : Successfull
+[08/07/2017 10:08:24][PASS][Login], Login : Successful
+[08/07/2017 10:08:25][PASS][NavigateMenu_ToolBar], Navigate Menu ToolBar Successfully : Passed
+[08/07/2017 10:08:26][PASS][SelectTime], Select time : Successful
+[08/07/2017 10:08:27][PASS][SelectHours], Select hours at null  : Successful
+[08/07/2017 10:08:31][PASS][CreateActivity], Create Activity : Successful
+[08/07/2017 10:08:31][PASS][VerifyActivity], Have 1 Activity  : Exist
+[08/07/2017 10:08:34][PASS][CloseBrowser], Close browser : Successfull

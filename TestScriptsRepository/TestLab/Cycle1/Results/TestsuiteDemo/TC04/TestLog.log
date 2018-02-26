@@ -1,0 +1,8 @@
+[25/05/2017 15:45:11][PASS][LaunchBrowser], Launch browser : Successfull
+[25/05/2017 15:45:11][PASS][SearchKeyword], Search : Successfull
+[25/05/2017 15:45:19][PASS][ClickLinkPartialText], ClickLinkPartialText : Successfull
+[25/05/2017 15:45:22][PASS][CloseBrowser], Close browser : Successfull
+[29/05/2017 08:38:56][PASS][LaunchBrowser], Launch browser : Successfull
+[29/05/2017 08:38:57][PASS][SearchKeyword], Search : Successfull
+[29/05/2017 08:39:02][PASS][ClickLinkPartialText], ClickLinkPartialText : Successfull
+[29/05/2017 08:39:05][PASS][CloseBrowser], Close browser : Successfull

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TestSuite Status="0" AutoCheck="yes" SourceURL="\TestScriptsRepository\TestPlan\Feature\TestsuiteDemo.xml" Description="" Author="">
+  <Clients ID="">
+    <Client Name="Chrome" UniqueID="2760979A1159158889FB74AA6B0A090B" Type="Chrome" Address="127.0.0.1" Description="Chrome at local" />
+    <Client Name="Firefox" UniqueID="769B28E8235DD5D3F170D3DDE14DE16D" Type="Firefox" Address="127.0.0.1" Description="Firefox at local" />
+    <Client Name="IE" UniqueID="6E5F960BA8901540B3A09D51651D1097" Type="Internet Explorer" Address="127.0.0.1" Description="Internet Explorer at local" />
+  </Clients>
+  <Tests ID="">
+    <TestCase UniqueID="284A032EEEF247E61B731C78F6D081CF" ID="TC01" Status="0" Name="aa" Description="aa" Author="" Comment="False" PrimaryCase="no">
+      <TestData />
+      <Keyword Name="LaunchBrowser" Status="0" ClientID="2760979A1159158889FB74AA6B0A090B" Product="WebApplication" Feature="page_Common" StartTime="" FinishTime="" Description="Launch browser to URL" Comment="">
+        <Param Name="sURL" TestBedPath="/Node[@Name='TestBed']/Node[@Name='System']/Node[@Name='Googlepage']/Node[@Name='URL']" DataColName="" Description=" Description(URL will be open)">https://www.google.com.vn/</Param>
+      </Keyword>
+      <Keyword Name="SearchKeyword" Status="0" ClientID="2760979A1159158889FB74AA6B0A090B" Product="WebApplication" Feature="page_Home" StartTime="" FinishTime="" Description="Enter serching key" Comment="">
+        <Param Name="sInput" TestBedPath="" DataColName="" Description=" Description(Searching keyword)">vn express</Param>
+      </Keyword>
+      <Keyword Name="ClickLinkPartialText" Status="0" ClientID="2760979A1159158889FB74AA6B0A090B" Product="WebApplication" Feature="page_SearchingResult" StartTime="" FinishTime="" Description="Click to link contains text" Comment="">
+        <Param Name="sLinkText" TestBedPath="" DataColName="" Description=" Description(Text)">VnExpress</Param>
+      </Keyword>
+      <Keyword Name="CleanUp" Status="0" ClientID="2760979A1159158889FB74AA6B0A090B" Product="Utils" Feature="Utils" StartTime="" FinishTime="" Description="This kw use to mark start cleanup" Comment="" />
+      <Keyword Name="CloseBrowser" Status="0" ClientID="2760979A1159158889FB74AA6B0A090B" Product="WebApplication" Feature="page_Common" StartTime="" FinishTime="" Description="Close browser" Comment="" />
+    </TestCase>
+  </Tests>
+</TestSuite>

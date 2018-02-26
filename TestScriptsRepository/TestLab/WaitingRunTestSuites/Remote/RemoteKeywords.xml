@@ -1,0 +1,7 @@
+<TestSuite Status="1">
+  <TestCase Status="1" PrimaryCase="yes" ID="Remote" Name="Remote">
+    <Keyword Name="CloseBrowser" Status="1" Remote="Localhost" RemoteTestBed="/Node[@Name='TestBed']/Node[@Name='Custom']/Node[@Name='Client']/Node[@Name='Client1']" Product="EZCMIEWeb" Feature="WebCommon" StartTime="2/10/2015 14:32:34" FinishTime="2/10/2015 14:32:35" Description="" Comment="no">
+      <Param Name="strOptional" TestBedPath="" Description="optionalVar">Null</Param>
+    </Keyword>
+  </TestCase>
+</TestSuite>

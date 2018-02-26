@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><Logs><Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="Launch browser to URL" Feature="page_Common" FinishTime="07/08/2017 11:45:50" Name="LaunchBrowser" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="1" UniqueID="6B91A349FB206199B0591C0A0A3839BA">
+                    <Params>
+                        <Param DataColName="" Description="URL will be open" Name="sURL" TestBedPath="">http://192.168.0.201/suitecrm/index.php</Param>
+                    </Params>
+                <Logs><Log>[08/07/2017 11:45:50][PASS][LaunchBrowser], Launch browser : Successfull</Log></Logs></Keyword><Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="This is keyword for help Login" Feature="page_Login" FinishTime="07/08/2017 11:45:55" Name="Login" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="1" UniqueID="584D0AEA8ABD9622F4D5ED0E66EB631E">
+                    <Params>
+                        <Param DataColName="" Description="Enter Username" Name="sUserName" TestBedPath="">admin</Param>
+                        <Param DataColName="" Description="Enter password" Name="sPassword" TestBedPath="">RAPtor@1234</Param>
+                    </Params>
+                <Logs><Log>[08/07/2017 11:45:55][PASS][Login], Login : Successful</Log></Logs></Keyword><Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="This is keyword for help navigate menu of ToolBar" Feature="page_Home" FinishTime="07/08/2017 11:45:58" Name="NavigateMenu_ToolBar" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="1" UniqueID="3C3FD3EDCA588D9D14CD53558985C991">
+                    <Params>
+                        <Param DataColName="" Description="Tab" Name="sTab" TestBedPath="">All</Param>
+                        <Param DataColName="" Description="Menu" Name="sMenu" TestBedPath="">Calendar</Param>
+                    </Params>
+                <Logs><Log>[08/07/2017 11:45:58][PASS][NavigateMenu_ToolBar], Navigate Menu ToolBar Successfully : Passed</Log></Logs></Keyword><Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="This is keyword for help select time" Feature="page_Calendar" FinishTime="07/08/2017 11:45:58" Name="SelectTime" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="1" UniqueID="6533441561900F7759FB7CBC67656CD0">
+                    <Params>
+                        <Param DataColName="" Description="Day or Week or Month ..." Name="sTime" TestBedPath="">Day</Param>
+                    </Params>
+                <Logs><Log>[08/07/2017 11:45:58][PASS][SelectTime], Select time : Successful</Log></Logs></Keyword><Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="This is keyword for help select hours" Feature="page_Calendar" FinishTime="07/08/2017 11:45:59" Name="SelectHours" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="1" UniqueID="3C2BAFA4BCBAFC7226A425060B8958E7">
+                    <Params>
+                        <Param DataColName="" Description="'all-day' or 'hh:mm'" Name="sTime" TestBedPath="">09:30</Param>
+                        <Param DataColName="" Description="mon or tue ...." Name="sDayOfWeek" TestBedPath="">null</Param>
+                    </Params>
+                <Logs><Log>[08/07/2017 11:45:59][PASS][SelectHours], Select hours at null  : Successful</Log></Logs></Keyword><Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="This is keyword for help create new Activity" Feature="page_Calendar" FinishTime="07/08/2017 11:46:02" Name="CreateActivity" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="1" UniqueID="A24C6CD9D7EBD782A49B5616311E71F1">
+                    <Params>
+                        <Param DataColName="" Description="subject of Activity" Name="sSubject" TestBedPath="">Meeting</Param>
+                        <Param DataColName="" Description="Start Date (mm/dd/yyyy)" Name="sStartDate" TestBedPath="">07/08/2017</Param>
+                        <Param DataColName="" Description="Due Date (mm/dd/yyyy)" Name="sEndDate" TestBedPath="">07/08/2017</Param>
+                        <Param DataColName="" Description="Duration" Name="sDuration" TestBedPath="">2 hours</Param>
+                        <Param DataColName="" Description="Assigned to" Name="sAssigned" TestBedPath="">Le Lieu</Param>
+                        <Param DataColName="" Description="Description" Name="sDescription" TestBedPath="">Discuss about process</Param>
+                        <Param DataColName="" Description="status of task" Name="sStatus" TestBedPath="">Held</Param>
+                        <Param DataColName="" Description="related to" Name="sRelated" TestBedPath="">Opportunity</Param>
+                        <Param DataColName="" Description="location" Name="sLocation" TestBedPath="">HCM</Param>
+                    </Params>
+                <Logs><Log>[08/07/2017 11:46:02][PASS][CreateActivity], Create Activity : Successful</Log></Logs></Keyword><Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="This is keyword for help verify activity was created" Feature="page_Calendar" FinishTime="07/08/2017 11:46:03" Name="VerifyActivity" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="1" UniqueID="CEEA1D012F4CE384A81E545F5138C01F">
+                    <Params>
+                        <Param DataColName="" Description="title of activity" Name="sTitle" TestBedPath="">Meeting Le Lieu</Param>
+                        <Param DataColName="" Description="format 'MM-dd-yyyy'" Name="sDate" TestBedPath=""/>
+                    </Params>
+                <Logs><Log>[08/07/2017 11:46:03][PASS][VerifyActivity], Have 1 Activity  : Exist</Log></Logs></Keyword><Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="Close browser" Feature="page_Common" FinishTime="07/08/2017 11:46:07" Name="CloseBrowser" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="1" UniqueID="B236EFE661FB79300C0AE4611A6F252B">
+                    <Params/>
+                <Logs><Log>[08/07/2017 11:46:07][PASS][CloseBrowser], Close browser : Successfull</Log></Logs></Keyword><Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="Launch browser to URL" Feature="page_Common" FinishTime="07/21/2017 21:50:51" Name="LaunchBrowser" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="1" UniqueID="6B91A349FB206199B0591C0A0A3839BA">
+                    <Params>
+                        <Param DataColName="" Description="URL will be open" Name="sURL" TestBedPath="">http://192.168.0.201/suitecrm/index.php</Param>
+                    </Params>
+                <Logs><Log>[21/07/2017 21:50:51][PASS][LaunchBrowser], Launch browser : Successfull</Log></Logs></Keyword><Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="This is keyword for help Login" Feature="page_Login" FinishTime="07/21/2017 21:51:12" Name="Login" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="2" UniqueID="584D0AEA8ABD9622F4D5ED0E66EB631E">
+                    <Params>
+                        <Param DataColName="" Description="Enter Username" Name="sUserName" TestBedPath="">admin</Param>
+                        <Param DataColName="" Description="Enter password" Name="sPassword" TestBedPath="">RAPtor@1234</Param>
+                    </Params>
+                <Logs><Log>[21/07/2017 21:51:12][FAIL][Login], Login : Failed</Log></Logs></Keyword></Logs>

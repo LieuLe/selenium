@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><TestSuite Author="" AutoCheck="yes" Description="" SourceURL="\TestScriptsRepository\TestPlan\Feature\TestCase_CRM.xml" Status="1">
+    <Clients ID="">
+        <Client Address="127.0.0.1" Description="Chrome at local" Name="Chrome" Type="Chrome" UniqueID="2760979A1159158889FB74AA6B0A090B"/>
+        <Client Address="127.0.0.1" Description="Firefox at local" Name="Firefox" Type="Firefox" UniqueID="769B28E8235DD5D3F170D3DDE14DE16D"/>
+        <Client Address="127.0.0.1" Description="Internet Explorer at local" Name="IE" Type="Internet Explorer" UniqueID="6E5F960BA8901540B3A09D51651D1097"/>
+    </Clients>
+    <Tests ID="">
+        <TestCase Author="Lieu Le" Comment="False" Description="" ID="TC001" Name="[Login] Verify that user can login successful" PrimaryCase="no" Status="0" UniqueID="3669209D3120EC015784955366F4C7D7">
+            <TestData IterationFrom="0" IterationLimit="False" IterationTo="0" StepFrom="0" StepTo="0" StepsLimit="False"/>
+            <Keywords>
+                <Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="Launch browser to URL" Feature="page_Common" FinishTime="07/21/2017 21:50:51" Name="LaunchBrowser" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="1" UniqueID="6B91A349FB206199B0591C0A0A3839BA">
+                    <Params>
+                        <Param DataColName="" Description="URL will be open" Name="sURL" TestBedPath="">http://192.168.0.201/suitecrm/index.php</Param>
+                    </Params>
+                </Keyword>
+                <Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="This is keyword for help Login" Feature="page_Login" FinishTime="07/21/2017 21:51:12" Name="Login" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="2" UniqueID="584D0AEA8ABD9622F4D5ED0E66EB631E">
+                    <Params>
+                        <Param DataColName="" Description="Enter Username" Name="sUserName" TestBedPath="">admin</Param>
+                        <Param DataColName="" Description="Enter password" Name="sPassword" TestBedPath="">RAPtor@1234</Param>
+                    </Params>
+                </Keyword>
+                <Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="This is keyword for help navigate menu of ToolBar" Feature="page_Home" FinishTime="01/01/1999 00:00:00" Name="NavigateMenu_ToolBar" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="0" UniqueID="3C3FD3EDCA588D9D14CD53558985C991">
+                    <Params>
+                        <Param DataColName="" Description="Tab" Name="sTab" TestBedPath="">All</Param>
+                        <Param DataColName="" Description="Menu" Name="sMenu" TestBedPath="">Calendar</Param>
+                    </Params>
+                </Keyword>
+                <Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="This is keyword for help select time" Feature="page_Calendar" FinishTime="01/01/1999 00:00:00" Name="SelectTime" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="0" UniqueID="6533441561900F7759FB7CBC67656CD0">
+                    <Params>
+                        <Param DataColName="" Description="Day or Week or Month ..." Name="sTime" TestBedPath="">Day</Param>
+                    </Params>
+                </Keyword>
+                <Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="This is keyword for help select hours" Feature="page_Calendar" FinishTime="01/01/1999 00:00:00" Name="SelectHours" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="0" UniqueID="3C2BAFA4BCBAFC7226A425060B8958E7">
+                    <Params>
+                        <Param DataColName="" Description="'all-day' or 'hh:mm'" Name="sTime" TestBedPath="">09:30</Param>
+                        <Param DataColName="" Description="mon or tue ...." Name="sDayOfWeek" TestBedPath="">null</Param>
+                    </Params>
+                </Keyword>
+                <Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="This is keyword for help create new Activity" Feature="page_Calendar" FinishTime="01/01/1999 00:00:00" Name="CreateActivity" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="0" UniqueID="A24C6CD9D7EBD782A49B5616311E71F1">
+                    <Params>
+                        <Param DataColName="" Description="subject of Activity" Name="sSubject" TestBedPath="">Meeting</Param>
+                        <Param DataColName="" Description="Start Date (mm/dd/yyyy)" Name="sStartDate" TestBedPath="">07/08/2017</Param>
+                        <Param DataColName="" Description="Due Date (mm/dd/yyyy)" Name="sEndDate" TestBedPath="">07/08/2017</Param>
+                        <Param DataColName="" Description="Duration" Name="sDuration" TestBedPath="">2 hours</Param>
+                        <Param DataColName="" Description="Assigned to" Name="sAssigned" TestBedPath="">Le Lieu</Param>
+                        <Param DataColName="" Description="Description" Name="sDescription" TestBedPath="">Discuss about process</Param>
+                        <Param DataColName="" Description="status of task" Name="sStatus" TestBedPath="">Held</Param>
+                        <Param DataColName="" Description="related to" Name="sRelated" TestBedPath="">Opportunity</Param>
+                        <Param DataColName="" Description="location" Name="sLocation" TestBedPath="">HCM</Param>
+                    </Params>
+                </Keyword>
+                <Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="This is keyword for help verify activity was created" Feature="page_Calendar" FinishTime="01/01/1999 00:00:00" Name="VerifyActivity" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="0" UniqueID="CEEA1D012F4CE384A81E545F5138C01F">
+                    <Params>
+                        <Param DataColName="" Description="title of activity" Name="sTitle" TestBedPath="">Meeting Le Lieu</Param>
+                        <Param DataColName="" Description="format 'MM-dd-yyyy'" Name="sDate" TestBedPath=""/>
+                    </Params>
+                </Keyword>
+                <Keyword ClientID="2760979A1159158889FB74AA6B0A090B" Comment="" Description="Close browser" Feature="page_Common" FinishTime="01/01/1999 00:00:00" Name="CloseBrowser" Product="Libs.WebApplication" StartTime="01/01/1999 00:00:00" Status="0" UniqueID="B236EFE661FB79300C0AE4611A6F252B">
+                    <Params/>
+                </Keyword>
+            </Keywords>
+        </TestCase>
+    </Tests>
+</TestSuite>

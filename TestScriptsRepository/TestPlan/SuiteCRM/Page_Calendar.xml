@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TestSuite Status="3" AutoCheck="yes" SourceURL="" Description="" Author="">
+  <Clients ID="">
+    <Client Name="Chrome" UniqueID="2760979A1159158889FB74AA6B0A090B" Type="Chrome" Address="127.0.0.1" Description="Chrome at local" />
+    <Client Name="Firefox" UniqueID="769B28E8235DD5D3F170D3DDE14DE16D" Type="Firefox" Address="127.0.0.1" Description="Firefox at local" />
+    <Client Name="IE" UniqueID="6E5F960BA8901540B3A09D51651D1097" Type="Internet Explorer" Address="127.0.0.1" Description="Internet Explorer at local" />
+  </Clients>
+  <Tests ID="">
+    <TestCase UniqueID="5BB901233ECEF946ECF0C0620A899EF7" ID="TC001" Status="0" Name="[page_Calendar] Verify that user can create new Activity successful" Description="" Author="Lieu Le" Comment="False" PrimaryCase="no">
+      <TestData IterationLimit="False" IterationFrom="0" IterationTo="0" StepsLimit="False" StepFrom="0" StepTo="0" />
+      <Keywords>
+        <Keyword Name="LaunchBrowser" Status="" ClientID="2760979A1159158889FB74AA6B0A090B" Product="Libs.WebApplication" Feature="page_Common" StartTime="" FinishTime="" Description="Launch browser to URL" Comment="" UniqueID="CA175A1DB82A7FA4B3ACBFA3564F2D3E">
+          <Params />
+        </Keyword>
+        <Keyword Name="Login" Status="" ClientID="2760979A1159158889FB74AA6B0A090B" Product="Libs.WebApplication" Feature="page_Login" StartTime="" FinishTime="" Description="This is keyword for help Login" Comment="" UniqueID="1BF9FACD57A30EECFFEBB4E12A164005">
+          <Params />
+        </Keyword>
+        <Keyword Name="NavigateMenu_ToolBar" Status="" ClientID="2760979A1159158889FB74AA6B0A090B" Product="Libs.WebApplication" Feature="page_Home" StartTime="" FinishTime="" Description="This is keyword for help navigate menu of ToolBar" Comment="" UniqueID="612439653CB35B4A48C419E1C5DCD7EF">
+          <Params />
+        </Keyword>
+        <Keyword Name="SelectTime" Status="" ClientID="2760979A1159158889FB74AA6B0A090B" Product="Libs.WebApplication" Feature="page_Calendar" StartTime="" FinishTime="" Description="This is keyword for help select time" Comment="" UniqueID="5EDF801C0F4BBF337C9F20AB3C9733E9">
+          <Params />
+        </Keyword>
+        <Keyword Name="SelectHours" Status="" ClientID="2760979A1159158889FB74AA6B0A090B" Product="Libs.WebApplication" Feature="page_Calendar" StartTime="" FinishTime="" Description="This is keyword for help select hours" Comment="" UniqueID="9171EF5E482481F71C9578B8696BCC74">
+          <Params />
+        </Keyword>
+        <Keyword Name="CreateActivity" Status="" ClientID="2760979A1159158889FB74AA6B0A090B" Product="Libs.WebApplication" Feature="page_Calendar" StartTime="" FinishTime="" Description="This is keyword for help create new Activity" Comment="" UniqueID="5D369EB13C334D8A263B17C6D8E44276">
+          <Params />
+        </Keyword>
+        <Keyword Name="VerifyActivity" Status="" ClientID="2760979A1159158889FB74AA6B0A090B" Product="Libs.WebApplication" Feature="page_Calendar" StartTime="" FinishTime="" Description="This is keyword for help verify activity was created" Comment="" UniqueID="D0EE429A5C1B61025815BA985A7BE1A5">
+          <Params />
+        </Keyword>
+        <Keyword Name="CloseBrowser" Status="" ClientID="2760979A1159158889FB74AA6B0A090B" Product="Libs.WebApplication" Feature="page_Common" StartTime="" FinishTime="" Description="Close browser" Comment="" UniqueID="A99E874E788153CAE912D35211F3C2F2">
+          <Params />
+        </Keyword>
+      </Keywords>
+    </TestCase>
+  </Tests>
+</TestSuite>

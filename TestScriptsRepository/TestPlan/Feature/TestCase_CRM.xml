@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TestSuite Status="3" AutoCheck="yes" SourceURL="" Description="" Author="">
+  <Clients ID="">
+    <Client Name="Chrome" UniqueID="2760979A1159158889FB74AA6B0A090B" Type="Chrome" Address="127.0.0.1" Description="Chrome at local" />
+    <Client Name="Firefox" UniqueID="769B28E8235DD5D3F170D3DDE14DE16D" Type="Firefox" Address="127.0.0.1" Description="Firefox at local" />
+    <Client Name="IE" UniqueID="6E5F960BA8901540B3A09D51651D1097" Type="Internet Explorer" Address="127.0.0.1" Description="Internet Explorer at local" />
+  </Clients>
+  <Tests ID="">
+    <TestCase UniqueID="3E06CB5A64FE007D12F2F7AC31024EFE" ID="TC001" Status="0" Name="[page_Calendar] Verify that user can create new Activity successful" Description="" Author="Lieu Le" Comment="False" PrimaryCase="no">
+      <TestData IterationLimit="False" IterationFrom="0" IterationTo="0" StepsLimit="False" StepFrom="0" StepTo="0" />
+      <Keywords>
+        <Keyword Name="LaunchBrowser" Status="" ClientID="2760979A1159158889FB74AA6B0A090B" Product="Libs.WebApplication" Feature="page_Common" StartTime="" FinishTime="" Description="Launch browser to URL" Comment="" UniqueID="6B91A349FB206199B0591C0A0A3839BA">
+          <Params>
+            <Param Name="sURL" TestBedPath="" DataColName="" Description="URL will be open">http://192.168.0.201/suitecrm/index.php</Param>
+          </Params>
+        </Keyword>
+        <Keyword Name="Login" Status="" ClientID="2760979A1159158889FB74AA6B0A090B" Product="Libs.WebApplication" Feature="page_Login" StartTime="" FinishTime="" Description="This is keyword for help Login" Comment="" UniqueID="584D0AEA8ABD9622F4D5ED0E66EB631E">
+          <Params>
+            <Param Name="sUserName" TestBedPath="" DataColName="" Description="Enter Username">admin</Param>
+            <Param Name="sPassword" TestBedPath="" DataColName="" Description="Enter password">RAPtor@1234</Param>
+          </Params>
+        </Keyword>
+        <Keyword Name="NavigateMenu_ToolBar" Status="" ClientID="2760979A1159158889FB74AA6B0A090B" Product="Libs.WebApplication" Feature="page_Home" StartTime="" FinishTime="" Description="This is keyword for help navigate menu of ToolBar" Comment="" UniqueID="3C3FD3EDCA588D9D14CD53558985C991">
+          <Params>
+            <Param Name="sTab" TestBedPath="" DataColName="" Description="Tab">All</Param>
+            <Param Name="sMenu" TestBedPath="" DataColName="" Description="Menu">Calendar</Param>
+          </Params>
+        </Keyword>
+        <Keyword Name="SelectTime" Status="" ClientID="2760979A1159158889FB74AA6B0A090B" Product="Libs.WebApplication" Feature="page_Calendar" StartTime="" FinishTime="" Description="This is keyword for help select time" Comment="" UniqueID="6533441561900F7759FB7CBC67656CD0">
+          <Params>
+            <Param Name="sTime" TestBedPath="" DataColName="" Description="Day or Week or Month ...">Day</Param>
+          </Params>
+        </Keyword>
+        <Keyword Name="SelectHours" Status="" ClientID="2760979A1159158889FB74AA6B0A090B" Product="Libs.WebApplication" Feature="page_Calendar" StartTime="" FinishTime="" Description="This is keyword for help select hours" Comment="" UniqueID="3C2BAFA4BCBAFC7226A425060B8958E7">
+          <Params>
+            <Param Name="sTime" TestBedPath="" DataColName="" Description="'all-day' or 'hh:mm'">09:30</Param>
+            <Param Name="sDayOfWeek" TestBedPath="" DataColName="" Description="mon or tue ....">null</Param>
+          </Params>
+        </Keyword>
+        <Keyword Name="CreateActivity" Status="" ClientID="2760979A1159158889FB74AA6B0A090B" Product="Libs.WebApplication" Feature="page_Calendar" StartTime="" FinishTime="" Description="This is keyword for help create new Activity" Comment="" UniqueID="A24C6CD9D7EBD782A49B5616311E71F1">
+          <Params>
+            <Param Name="sSubject" TestBedPath="" DataColName="" Description="subject of Activity">Meeting</Param>
+            <Param Name="sStartDate" TestBedPath="" DataColName="" Description="Start Date (mm/dd/yyyy)">07/08/2017</Param>
+            <Param Name="sEndDate" TestBedPath="" DataColName="" Description="Due Date (mm/dd/yyyy)">07/08/2017</Param>
+            <Param Name="sDuration" TestBedPath="" DataColName="" Description="Duration">2 hours</Param>
+            <Param Name="sAssigned" TestBedPath="" DataColName="" Description="Assigned to">Le Lieu</Param>
+            <Param Name="sDescription" TestBedPath="" DataColName="" Description="Description">Discuss about process</Param>
+            <Param Name="sStatus" TestBedPath="" DataColName="" Description="status of task">Held</Param>
+            <Param Name="sRelated" TestBedPath="" DataColName="" Description="related to">Opportunity</Param>
+            <Param Name="sLocation" TestBedPath="" DataColName="" Description="location">HCM</Param>
+          </Params>
+        </Keyword>
+        <Keyword Name="VerifyActivity" Status="" ClientID="2760979A1159158889FB74AA6B0A090B" Product="Libs.WebApplication" Feature="page_Calendar" StartTime="" FinishTime="" Description="This is keyword for help verify activity was created" Comment="" UniqueID="CEEA1D012F4CE384A81E545F5138C01F">
+          <Params>
+            <Param Name="sTitle" TestBedPath="" DataColName="" Description="title of activity">Meeting Le Lieu</Param>
+            <Param Name="sDate" TestBedPath="" DataColName="" Description="format 'MM-dd-yyyy'">
+            </Param>
+          </Params>
+        </Keyword>
+        <Keyword Name="CloseBrowser" Status="" ClientID="2760979A1159158889FB74AA6B0A090B" Product="Libs.WebApplication" Feature="page_Common" StartTime="" FinishTime="" Description="Close browser" Comment="" UniqueID="B236EFE661FB79300C0AE4611A6F252B">
+          <Params />
+        </Keyword>
+      </Keywords>
+    </TestCase>
+  </Tests>
+</TestSuite>
